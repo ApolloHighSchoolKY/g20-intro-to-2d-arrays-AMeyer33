@@ -38,15 +38,15 @@ public class IntroTo2DArrays{
     //Col 0: ...
     //Col 1: ...
 
-    int sum2 = 0;
+    
     for(int col = 0; col<twoDee[0].length; col++)
     {
+      sum = 0;
       for(int row = 0; row<twoDee.length; row++)
       {
-       sum2 += twoDee[row][col];
+       sum += twoDee[row][col];
       }
-      System.out.println("Col " + col + ": " + sum2);
-      sum2 = 0;
+      System.out.println("Col " + col + ": " + sum);
     }
     
    
